@@ -71,8 +71,13 @@ nav {
   color: var(--color2);
   opacity: 0;
   animation: slideTop1 .5s ease forwards;
-  animation-delay: .2s;
+  -webkit-animation: slideTop1 .5s ease forwards;
+  animation-delay: .6s;
   transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
 }
 .nav-logo a:hover {
   color: var(--color3);
@@ -86,9 +91,14 @@ nav {
   font-weight: 700;
   color: var(--color2);
   opacity: 0;
-  animation: slideTop1 .5s ease forwards;
-  animation-delay: calc(.2s * var(--i));
+  animation: slideTop1 1.5s ease forwards;
+  -webkit-animation: slideTop1 1.5s ease forwards;
+  animation-delay: calc(.3s * var(--i));
   transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
 }
 .nav-links a:hover {
   color: var(--color3);
@@ -102,18 +112,23 @@ nav {
 .nav-extra a,
 .nav-extra button {
   display: inline-block;
-	background: none;
+  background: none;
   margin-inline: .5vw;
-	border: none;
-	padding: 0;
-	outline: none;
+  border: none;
+  padding: 0;
+  outline: none;
   font-size: 1.3rem;
   color: var(--color2);
   -webkit-text-stroke: 1px;
   opacity: 0;
-  animation: slideLeft 2s ease forwards;
+  animation: slideLeft 4s ease forwards;
+  -webkit-animation: slideLeft 4s ease forwards;
   animation-delay: calc(.2s * var(--i));
-  transition: var(--transitionDuration);;
+  transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
 }
 .nav-extra a:hover,
 .nav-extra button:hover {
@@ -153,6 +168,7 @@ nav {
   color: var(--color2);
   opacity: 0;
   animation: slideBottom 1s ease forwards;
+  -webkit-animation: slideBottom 1s ease forwards;
   animation-delay: .7s;
 }
 .big-title span {
@@ -169,6 +185,10 @@ nav {
   overflow: hidden;
   color: var(--titleColor);
   transition: var(--transitionDuration) ease-in-out;
+  -webkit-transition: var(--transitionDuration) ease-in-out;
+  -moz-transition: var(--transitionDuration) ease-in-out;
+  -ms-transition: var(--transitionDuration) ease-in-out;
+  -o-transition: var(--transitionDuration) ease-in-out;
 }
 .big-title span:hover::before {
   width: 100%;
@@ -187,8 +207,13 @@ nav {
   text-align: left;
   opacity: 0;
   animation: slideTop2 1s ease forwards;
+  -webkit-animation: slideTop2 1s ease forwards;
   animation-delay: .7s;
   transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
 }
 .text a:hover {
   color: var(--color3);
@@ -205,10 +230,15 @@ nav {
   position: relative;
   font-size: 2vw;
   color: var(--color2);
-  transition: color var(--transitionDuration) linear;
   opacity: 0;
   animation: slideTop2 1s ease forwards;
+  -webkit-animation: slideTop2 1s ease forwards;
   animation-delay: .7s;
+  transition: color var(--transitionDuration) linear;
+  -webkit-transition: color var(--transitionDuration) linear;
+  -moz-transition: color var(--transitionDuration) linear;
+  -ms-transition: color var(--transitionDuration) linear;
+  -o-transition: color var(--transitionDuration) linear;
 }
 .btn:hover {
   color: var(--color1);
@@ -224,11 +254,23 @@ nav {
   background-color: var(--color2);
   transform-origin: 0 0;
   transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
   transition-timing-function: cubic-bezier(.5, 1.6, .4, .7);
   transform: scaleX(0);
+  -webkit-transform: scaleX(0);
+  -moz-transform: scaleX(0);
+  -ms-transform: scaleX(0);
+  -o-transform: scaleX(0);
 }
 .btn:hover::before {
   transform: scaleX(1);
+  -webkit-transform: scaleX(1);
+  -moz-transform: scaleX(1);
+  -ms-transform: scaleX(1);
+  -o-transform: scaleX(1);
 }
 .right { /* Bagian kanan ketika ukuran lebar layar lebih dari 950px */
   display: flex;
@@ -258,6 +300,7 @@ figure {
   isolation: isolate;
   opacity: 0;
   animation: zoomIn 1s ease forwards;
+  -webkit-animation: zoomIn 1s ease forwards;
   animation-delay: .5s;
 }
 .main-image::before {
@@ -272,7 +315,15 @@ figure {
   background-position: center center;
   background-repeat: no-repeat;
   border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
   transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
   animation: movingBgImage 2.5s linear infinite;
   -webkit-animation: movingBgImage 2.5s linear infinite;
 }
@@ -287,6 +338,10 @@ figure {
   font-weight: 700;
   background-color: var(--color1);
   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, .2);
 }
 .card-top {
@@ -341,13 +396,20 @@ footer {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-
 }
 .social-icon li {
   transition: var(--transitionDuration);
+  -webkit-transition: var(--transitionDuration);
+  -moz-transition: var(--transitionDuration);
+  -ms-transition: var(--transitionDuration);
+  -o-transition: var(--transitionDuration);
 }
 .social-icon li:hover {
   transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+  -moz-transform: translateY(-10px);
+  -ms-transform: translateY(-10px);
+  -o-transform: translateY(-10px);
 }
 .social-icon a {
   display: flex;
@@ -357,11 +419,16 @@ footer {
   width: 40px;
   height: 40px;
   border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
   font-size: 1.2rem;
   color: var(--color2);
   margin: 0 10px;
   opacity: 0;
   animation: slideLeft .2s ease forwards;
+  -webkit-animation: slideLeft .2s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
 .copyright {
@@ -371,6 +438,7 @@ footer {
   margin: 10px 0 10px 0;
   opacity: 0;
   animation: slideTop2 1s ease forwards;
+  -webkit-animation: slideTop2 1s ease forwards;
   animation-delay: 1s;
 }
 .copyright span {
@@ -388,45 +456,93 @@ footer {
 @keyframes movingImage {
   0% {
     transform: translate(17px, 5px);
+    -webkit-transform: translate(17px, 5px);
+    -moz-transform: translate(17px, 5px);
+    -ms-transform: translate(17px, 5px);
+    -o-transform: translate(17px, 5px);
   }
   50% {
     transform: translate(5px, 17px);
+    -webkit-transform: translate(5px, 17px);
+    -moz-transform: translate(5px, 17px);
+    -ms-transform: translate(5px, 17px);
+    -o-transform: translate(5px, 17px);
   }
   100% {
     transform: translate(17px, 5px);
+    -webkit-transform: translate(17px, 5px);
+    -moz-transform: translate(17px, 5px);
+    -ms-transform: translate(17px, 5px);
+    -o-transform: translate(17px, 5px);
   }
 }
 @keyframes movingBgImage {
   0% {
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
   }
   50% {
     transform: translate(-50%, -46%);
+    -webkit-transform: translate(-50%, -46%);
+    -moz-transform: translate(-50%, -46%);
+    -ms-transform: translate(-50%, -46%);
+    -o-transform: translate(-50%, -46%);
   }
   100% {
     transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
   }
 }
 @keyframes movingCardTop {
   0% {
     transform: translate(25px, 25px);
+    -webkit-transform: translate(25px, 25px);
+    -moz-transform: translate(25px, 25px);
+    -ms-transform: translate(25px, 25px);
+    -o-transform: translate(25px, 25px);
   }
   50% {
     transform: translate(20px, 20px);
+    -webkit-transform: translate(20px, 20px);
+    -moz-transform: translate(20px, 20px);
+    -ms-transform: translate(20px, 20px);
+    -o-transform: translate(20px, 20px);
   }
   100% {
     transform: translate(25px, 25px);
+    -webkit-transform: translate(25px, 25px);
+    -moz-transform: translate(25px, 25px);
+    -ms-transform: translate(25px, 25px);
+    -o-transform: translate(25px, 25px);
   }
 }
 @keyframes movingCardBottom {
   0% {
     transform: translate(15px, 16px);
+    -webkit-transform: translate(15px, 16px);
+    -moz-transform: translate(15px, 16px);
+    -ms-transform: translate(15px, 16px);
+    -o-transform: translate(15px, 16px);
   }
   50% {
     transform: translate(19px, 19px);
+    -webkit-transform: translate(19px, 19px);
+    -moz-transform: translate(19px, 19px);
+    -ms-transform: translate(19px, 19px);
+    -o-transform: translate(19px, 19px);
   }
   100% {
     transform: translate(15px, 16px);
+    -webkit-transform: translate(15px, 16px);
+    -moz-transform: translate(15px, 16px);
+    -ms-transform: translate(15px, 16px);
+    -o-transform: translate(15px, 16px);
   }
 }
 
@@ -444,60 +560,108 @@ footer {
 @keyframes slideTop1 {
   0% {
     transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
     opacity: 0;
   }
   100% {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes slideTop2 {
   0% {
     transform: translateY(100px);
+    -webkit-transform: translateY(100px);
+    -moz-transform: translateY(100px);
+    -ms-transform: translateY(100px);
+    -o-transform: translateY(100px);
     opacity: 0;
   }
   100% {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes slideRight {
   0% {
     transform: translateX(-100px);
+    -webkit-transform: translateX(-100px);
+    -moz-transform: translateX(-100px);
+    -ms-transform: translateX(-100px);
+    -o-transform: translateX(-100px);
     opacity: 0;
   }
   100% {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
     opacity: 1;
   }
 }
 @keyframes slideBottom {
   0% {
     transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
     opacity: 0;
   }
   100% {
     transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
     opacity: 1;
   }
 }
 @keyframes slideLeft {
   0% {
     transform: translateX(100px);
+    -webkit-transform: translateX(100px);
+    -moz-transform: translateX(100px);
+    -ms-transform: translateX(100px);
+    -o-transform: translateX(100px);
     opacity: 0;
   }
   100% {
     transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
     opacity: 1;
   }
 }
 @keyframes zoomIn {
   0% {
     transform: scale(0);
+    -webkit-transform: scale(0);
+    -moz-transform: scale(0);
+    -ms-transform: scale(0);
+    -o-transform: scale(0);
     opacity: 0;
   }
   100% {
     transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
     opacity: 1;
   }
 }
@@ -514,12 +678,14 @@ footer {
   }
 }
 
-
 @media screen and (max-width: 950px) { /* Kurang dari 950px */
   html {
     font-size: 90%;
   }
 
+  .nav-container {
+    width: 0%;
+  }
   .nav-links {
     display: flex;
     align-items: center;
@@ -537,12 +703,22 @@ footer {
     top: 0px;
   }
   .nav-links li {
+    font-size: 3.5vw;
     display: block;
     margin-block: 50%;
     text-align: center;
   }
   .nav-extra #list {
     display: inline-block;
+  }
+  .nav-logo a,
+  .nav-extra a,
+  .nav-extra button {
+    font-size: 5vw;
+  }
+  .nav-extra a,
+  .nav-extra button {
+    margin-inline: 1vw;
   }
 
   .main-content {
@@ -558,15 +734,13 @@ footer {
     align-items: center;
   }
   .big-title h1 {
-    font-size: 1.5rem;
+    font-size: 2.5rem;
   }
   .big-title span {
-    font-size: 3rem;
+    font-size: 5rem;
   }
   .text a {
-    font-size: 1rem;
     text-align: center;
-    opacity: 0;
   }
   .cta {
     justify-content: center;
@@ -574,7 +748,6 @@ footer {
     align-items: center;
     width: max-content;
     margin-inline: auto;
-    font-size: 1rem;
   }
   .right img {
     width: 1vw;
@@ -593,17 +766,11 @@ footer {
     top: 32%;
     left: 6rem;
     z-index: 2;
+  }
+  .text a,
+  .cta a,
+  .card-bottom,
+  .copyright {
     font-size: 1.5rem;
-  }
-}
-
-
-@media screen and (max-width: 480px) { /* Kurang dari 480px */
-  .nav-logo a {
-    font-size: 5vw;
-  }
-  .nav-extra a,
-  .nav-extra button {
-    font-size: 3vw;
   }
 }
