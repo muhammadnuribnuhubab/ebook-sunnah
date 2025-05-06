@@ -39,8 +39,8 @@ A modern and responsive landing page for [ebooksunnah.com](https://ebooksunnah.c
 To run this project locally:
 
 ```bash
-git clone https://github.com/yourusername/ebook-sunnah.git
-cd ebook-sunnah
+git clone https://github.com/yourusername/ebooksunnah.git
+cd ebooksunnah
 
 # Open index.html in your browser
 ```
