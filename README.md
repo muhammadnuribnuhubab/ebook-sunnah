@@ -1,19 +1,18 @@
 # 📚 ebooksunnah - Landing Page
 
-A modern and responsive landing page for [ebooksunnah.vercel.app](https://ebooksunnah.vercel.app), a platform that provides free Islamic ebooks based on the Sunnah. The page is built using **HTML**, **CSS**, and **Vanilla JavaScript** to give users quick access to various ebook categories and featured content.
+A modern and responsive landing page for [ebooksunnah.com](https://ebooksunnah.com), a platform that provides free Islamic ebooks based on the Sunnah. The page is built using **HTML**, **CSS**, and **Vanilla JavaScript** to give users quick access to various ebook categories and featured content.
 
 ---
 
 ## 🌐 Live Demo
 
-You can visit the original website this project references here:  
-👉 [ebooksunnah.com](https://ebooksunnah.com)
+👉 [ebooksunnah.vercel.app](https://ebooksunnah.vercel.app)
 
 ---
 
 ## ✨ Features
 
-- 📖 Simple and clean design inspired by [ebooksunnah.com](https://ebooksunnah.com)
+- 📖 Simple and clean design
 - 📱 Responsive layout (mobile & desktop)
 - 🌙 Light/Dark theme toggle
 - 🔍 Quick links to ebook categories:
