@@ -1,42 +1,40 @@
 # 📚 ebooksunnah - Landing Page
 
-A modern and responsive landing page for [ebooksunnah.com](https://ebooksunnah.com), a platform that provides free Islamic ebooks based on the Sunnah. The page is built using **HTML**, **CSS**, and **Vanilla JavaScript** to give users quick access to various ebook categories and featured content.
+A modern landing page offering free Islamic e-books based on authentic Sunnah.
 
 ---
 
 ## 🌐 Live Demo
 
-👉 [ebooksunnah.vercel.app](https://ebooksunnah.vercel.app)
+[![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-000?logo=vercel&logoColor=white)](https://ebooksunnah.vercel.app)
 
 ---
 
 ## ✨ Features
 
-- 📖 Simple and clean design
-- 📱 Responsive layout (mobile & desktop)
-- 🌙 Light/Dark theme toggle
-- 🔍 Quick links to ebook categories:
-  - Adab
-  - Akhlak
-  - Al-Qur'an
-  - Aqidah
-  - Fiqih
-- 📥 Link to ebook download instructions
-- 🌐 Social media footer (GitHub, Instagram, Facebook, LinkedIn)
+- 📖 Simple and clean design  
+- 📱 Responsive layout (mobile & desktop)  
+- 🌙 Light/Dark theme toggle  
+- 🔍 Quick links to ebook categories:  
+  - Adab  
+  - Akhlak  
+  - Al-Qur'an  
+  - Aqidah  
+  - Fiqih  
+- 📥 Link to ebook download instructions  
+- 🌐 Social media footer (GitHub, Instagram, Facebook, LinkedIn)  
 
 ---
 
 ## 🛠️ Tech Stack
 
-- **HTML5**
-- **CSS3** (with Google Fonts, Animations, and Bootstrap Icons)
-- **JavaScript** (for interactive navbar and theme switch)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS) (Google Fonts, Animations, Bootstrap Icons)
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) (for interactive navbar and theme switch)
 
 ---
 
 ## 🚀 Getting Started
-
-To run this project locally:
 
 ```bash
 git clone https://github.com/yourusername/ebooksunnah.git
@@ -44,9 +42,8 @@ cd ebooksunnah
 
 # Open index.html in your browser
 ```
-````
 
-You can also use a local development server (like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)) for live reload.
+You can also use a local development server like [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) for live reload.
 
 ---
 
@@ -57,8 +54,8 @@ ebooksunnah-landing/
 ├── css/
 │   └── style.css
 ├── images/
-│   └── book-open-text.svg
-│   └── ebook.png
+│   ├── book-open-text.svg
+│   ├── ebook.png
 │   └── wave.svg
 ├── js/
 │   └── script.js
@@ -69,10 +66,10 @@ ebooksunnah-landing/
 
 ## 🙏 Acknowledgments
 
-- 📘 [ebooksunnah.com](https://ebooksunnah.com) — for the ebook resources
-- 🖋️ Quote by Ibnul 'Arabi: [Source](https://remajaislam.com/2483-suka-membaca.html)
-- 🎨 Icons by [Bootstrap Icons](https://icons.getbootstrap.com/)
-- 🔤 Fonts by [Google Fonts (Poppins)](https://fonts.google.com)
+- 📘 [ebooksunnah.com](https://ebooksunnah.com) — for the ebook resources  
+- 🖋️ Quote by Ibnul 'Arabi: [Source](https://remajaislam.com/2483-suka-membaca.html)  
+- 🎨 Icons by [Bootstrap Icons](https://icons.getbootstrap.com/)  
+- 🔤 Fonts by [Google Fonts (Poppins)](https://fonts.google.com)  
 
 ---
 
